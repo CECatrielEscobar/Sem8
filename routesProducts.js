@@ -21,7 +21,6 @@ const checkKeys = (data) => {
   );
   return noHayClavesAdicionales;
 };
-console.log(producto);
 router.get("/products", async (req, res) => {
   try {
     const products = await producto.getProducts();
